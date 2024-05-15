@@ -11,7 +11,7 @@
     // "disableReferencedProjectLoad": true,             /* 减少 TypeScript 自动加载的项目数量。 */
 
     /* 语言和环境 */
-    "target": "es2016",                                  /* 为生成的 JavaScript 设置 JavaScript 语言版本并包含兼容的库声明。 */
+    "target": "esnext",                                  /* 为生成的 JavaScript 设置 JavaScript 语言版本并包含兼容的库声明。 */
     // "lib": [],                                        /* 指定一组捆绑在一起的库声明文件，描述目标运行时环境。 */
     // "jsx": "preserve",                                /* 指定生成的 JSX 代码。 */
     // "experimentalDecorators": true,                   /* 启用对传统实验性装饰器的实验性支持。 */
@@ -56,7 +56,7 @@
     // "declaration": true,                              /* 从 TypeScript 和 JavaScript 文件中生成 .d.ts 文件。 */
     // "declarationMap": true,                           /* 为 .d.ts 文件创建源映射。 */
     // "emitDeclarationOnly": true,                      /* 仅输出 .d.ts 文件而不是 JavaScript 文件。 */
-    // "sourceMap": true,                                /* 为发出的 JavaScript 文件创建源映射文件。 */
+    "sourceMap": true,                                /* 为发出的 JavaScript 文件创建源映射文件。 */
     // "inlineSourceMap": true,                          /* 在发出的 JavaScript 中包含源映射文件。 */
     // "outFile": "./",                                  /* 指定一个文件，将所有输出捆绑到一个 JavaScript 文件中。如果 'declaration' 为 true，则还指定一个将所有 .d.ts 输出捆绑在一起的文件。 */
     // "outDir": "./",                                   /* 指定所有发出文件的输出文件夹。 */
