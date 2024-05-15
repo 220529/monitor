@@ -1,5 +1,3 @@
-import { qs } from "@/util";
-
 interface Config {
   platform?: string;
 }
@@ -70,14 +68,14 @@ class Sa {
       timestamp: new Date().getTime(),
       props: params,
     };
-    this.send(event, qs.stringify(realParams));
+    this.send(event, encodeURIComponent(JSON.stringify(realParams)));
     if (typeof this.afterUpload === "function") {
       this.afterUpload();
     }
   }
 
   private send(event: string, params: string): void {
-    console.log("send", event, params, qs.parse(params));
+    console.log("send", event, params);
   }
 }
 
